@@ -14,6 +14,6 @@ class SpaceSweep < Formula
 
   test do
     assert_predicate bin/"space-sweep", :executable?
-    assert_match "Done. Stay spacious.", pipe_output("#{bin}/space-sweep", "q\n")
+    assert_match "Done. Stay spacious.", pipe_output(bin/"space-sweep", "q\n")
   end
 end
