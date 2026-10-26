@@ -2,7 +2,7 @@ class SpaceSweep < Formula
   desc "Interactive macOS disk-space inspector and cleaner"
   homepage "https://github.com/Umar1312/space-sweep"
   url "https://github.com/Umar1312/space-sweep/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9f14d35f791d9757753ea652f2b00d2187d4c33fe2cccda8dbd741d461eb3aca"
+  sha256 "7dd87fcb2286a1f02bf2fbfafd47913919d1c951aa53b57b23fd6fbca6cd5192"
   license "MIT"
 
   depends_on :macos
